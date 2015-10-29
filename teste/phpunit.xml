@@ -1,0 +1,44 @@
+<phpunit bootstrap="./bootstrap.php" colors="true">
+    <testsuite name="teste">
+        <directory>./modelos/</directory>
+    </testsuite>
+
+    <filter>
+        <whitelist>
+
+            <!--Conferencia-->
+            <file>../conferencia/classes/AnexoPreConferencia.class.inc</file>
+            <file>../conferencia/classes/Cargo.class.inc</file>
+            <file>../conferencia/classes/Conferencia.class.inc</file>
+            <file>../conferencia/classes/CoordenadorResponsavel.class.inc</file>
+            <file>../conferencia/classes/Delegado.class.inc</file>
+            <file>../conferencia/classes/DelegadoConferencia.class.inc</file>
+            <file>../conferencia/classes/EixoTematico.class.inc</file>
+            <file>../conferencia/classes/EixoTematicoConferencia.class.inc</file>
+            <file>../conferencia/classes/EstadoPreConferencia.class.inc</file>
+            <file>../conferencia/classes/EstadoWorkflow.class.inc</file>
+            <file>../conferencia/classes/EtapaConferencia.class.inc</file>
+            <file>../conferencia/classes/EventoAcessorioConferencia.class.inc</file>
+            <file>../conferencia/classes/InformacaoConferencia.class.inc</file>
+            <file>../conferencia/classes/MomentoConferencia.class.inc</file>
+            <file>../conferencia/classes/MomentoTipoConferencia.class.inc</file>
+            <file>../conferencia/classes/MunicipioInformacao.class.inc</file>
+            <file>../conferencia/classes/OrgaoGestorCultura.class.inc</file>
+            <file>../conferencia/classes/PreConferencia.class.inc</file>
+            <file>../conferencia/classes/PropostaConferencia.class.inc</file>
+            <file>../conferencia/classes/SegmentoCultural.class.inc</file>
+            <file>../conferencia/classes/SubEixoTematico.class.inc</file>
+            <file>../conferencia/classes/TelefoneCoordenadorResponsavel.class.inc</file>
+            <file>../conferencia/classes/TipoConferencia.class.inc</file>
+            <file>../conferencia/classes/TipoEtapa.class.inc</file>
+            <file>../conferencia/classes/TipoParticipante.class.inc</file>
+
+        </whitelist>
+    </filter>
+
+    <logging>
+	    <log type="coverage-html" target="./log/report" charset="ISO-8859-1"
+	    yui="true" highlight="true" lowUpperBound="50" hightLowerBound="80"/>
+	    <log type="testdox" target="./log/testdox.html"/>
+    </logging>
+</phpunit>

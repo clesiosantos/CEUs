@@ -1,0 +1,104 @@
+/* ==========================================================================
+ Media Queries
+ ========================================================================== */
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+
+	body {
+		font-size: 52.5%;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 767px) {
+	section {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	.top .container {
+		text-align: center;
+	}
+	.top .container .logo {
+		float: none;
+	}
+	.top .container .btns-top {
+		float: none;
+	}
+	.learn.generic-section {
+		background: url("../img/bg-icons.png") no-repeat scroll 100% 100% transparent;
+		background-size: contain;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+	.list-testimonials li p.comment {
+		font-size: 2em;
+	}
+	.list-testimonials li p.date {
+		font-size: 1.2em;
+	}
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 568px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+	.global-oportunities .item .cont p {
+		margin: 0 10px 0.5em;
+		font-size: 1.4em;
+	}
+
+	.global-oportunities .item .cont h3 {
+		padding: 0 10px;
+	}
+	.global-oportunities .item .cont h3 span {
+		margin: 10px 0;
+		line-height: 20px;
+	}
+	.icon-new {
+		background-size: contain;
+		height: 20px;
+		margin: 10px 5px 10px 0;
+		width: 20px;
+	}
+	.newsletter .fields label {
+	    white-space: normal;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 340px) {
+	.list-testimonials li p.comment {
+		font-size: 1.5em;
+	}
+	.list-testimonials li p.date {
+		font-size: 1.1em;
+	}
+
+}
+
